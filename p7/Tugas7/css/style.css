@@ -1,0 +1,66 @@
+/* CSS untuk layout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: blueviolet;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-areas: 
+      "header header"
+      "aside article"
+      "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    width: 80%;
+    max-width: 800px;
+    background-color: hotpink;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  header {
+    grid-area: header;
+    background-color: #567471;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(41, 17, 17);
+  }
+  
+  aside {
+    grid-area: aside;
+    background-color: #46605e;
+    padding: 20px;
+    color: rgb(153, 233, 42);
+  }
+  
+  article {
+    grid-area: article;
+    background-color: #f28787;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  footer {
+    grid-area: footer;
+    background-color: #88cbc5;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .image {
+    width: 200px;
+    height: 155px;
+    background-image: url('image1.jpg'); /* tambahkan URL gambar */
+    background-size: cover; /* memastikan gambar memenuhi area */
+    background-position: center; /* memusatkan gambar */}

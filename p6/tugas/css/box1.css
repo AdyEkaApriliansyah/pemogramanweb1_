@@ -1,0 +1,50 @@
+/* styling box */
+body{
+    margin-left: 50px;
+    background-color: black;
+}
+
+.box{
+    width: 250px;
+    height: 600px;
+    border: 1px solid black;
+    float: left;
+    margin: 20px;
+}
+
+.red{
+   background-color: antiquewhite;
+   transform: translateY(1%);
+   width: 95%;
+   height: 150px;
+}
+
+.yellow{
+    background-color: blue;
+    transform: translateY(8%);
+    width: 20%;
+    height: 210px;
+}
+.green{
+    background-color: brown;
+    transform: translateY(10%);
+    width: 72%;
+    height: 205px;
+    float: left;
+}
+
+.blue{
+    background-color: crimson;
+    transform: translateY(5%);
+    width: 72%;
+    height: 200px;
+    float: left;
+}
+
+.yelow{
+    background-color: burlywood;
+    transform: translateY(127%);
+    width: 20%;
+    height: 200px;
+    margin-left: -284px;
+}

@@ -1,0 +1,22 @@
+header {
+    background-color: aqua;
+    margin: -10px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0. 5cm;
+    margin: 0;
+}
+
+header li {
+    margin: 01cm;
+}
+header li.logo{
+    margin-right: auto;
+}
+header img.logo{
+    width: 30%;
+}

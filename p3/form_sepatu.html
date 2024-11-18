@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dystore</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+<p>.</p>
+
+    <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <table border="1" align="center" style="width: 65%; border-collapse: collapse; height: 20%;">
+            <tr>
+                <th><a href="" target="_blank" style="color: black;">Home</a></th>
+                <th><a href="" target="_blank" style="color: black;">Generate Link</a></th>
+                <th><a href="" target="_blank" style="color: black;">Transaction History</a></th>
+                <th><a href="" target="_blank" style="color: black;">Policy</a></th>
+                <th><a href="" target="_blank" style="color: black;">About</a></th>
+            </tr>
+        </table><br><br><br>
+
+        <tbody>
+            <form action="hasil_sepatu.html">
+                <input type="file" name="photo" style="margin-bottom: 5px;">
+                <div>
+                    <img src="bahan.png" alt="bahanpng" width="250" style="float: left;">
+                </div>
+
+            <table style="margin-left: 350px;">
+                <tr>
+                    <td><label for="nama">Product Name :</label></td>
+                    <td><input type="text" id="nama" name="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="description">Description :</label></br>
+                    <td><textarea maxlength="400" name="description" cols="70" rows="5">No more than 400 characters long...</textarea></br>
+                </tr>
+                <tr>
+                    <td><label for="number">Account Number :</label></td>
+                    <td><input type="number" id="number" name="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="bank">Bank :</label></td>
+                    <td><input type="text" list="banklevel" name="banklevel"></td>
+                    <datalist id="banklevel">
+                        <option value="BCA">
+                        <option value="Mandiri">
+                        <option value="BRI">
+                        <option value="Gopay">
+                        <option value="Dana">
+                        <option value="OVO">
+                        <option value="BSI "></option>
+                    </datalist>
+                </tr>
+                <tr>
+                    <td><label for="nama">Account Holder :</label></td>
+                    <td><input type="text" id="nama" name="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Transaction :</label></td>
+                    <td><input type="number" max="5" min="1"></td>
+                </tr>
+            </table>
+            <table style="margin-left: 480px;">
+                <tr>
+                    <td>
+                        <p><b>*if the transaction is for 3 person, choose 3 from the drop-down list</b></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="tlp" name="tlp" value="mobilephone">
+                        <label for="tlp">Send to Mobile Phone</label>
+                    </td>
+                </tr>       
+                    <td>
+                        <input type="checkbox" id="mail" name="mail" value="mail">
+                        <label for="mail">Send to Email</label>
+                    </td>
+                </tr>
+            </table>
+            <table style="margin-left: 316px;">
+                <tr>
+                    <td><label for="nama">Send to Mobile Phone :</label></td>
+                    <td><input type="text" id="nama" name="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="nama">Send to Mail :</label></td>
+                    <td><input type="text" id="nama" name="nama"></td><br>
+                </tr>
+            </table><br>
+
+            <input style="margin-left: 484px;" type="submit" value="Generate Link Here">
+
+        </tbody>
+
+    </body>
+</html>

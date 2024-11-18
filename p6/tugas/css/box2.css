@@ -1,0 +1,61 @@
+/* styling box */
+body{
+    margin-left: 50px;
+    background-color: brown;
+}
+
+.box{
+    width: 250px;
+    height: 600px;
+    border: 1px solid white;
+    float: left;
+    margin: 20px;
+}
+
+.red{
+    background-color: aqua;
+    transform: translateY(20%);
+    width: 10%;
+    height: 700px;
+}
+
+.yellow{
+    background-color: chocolate;
+    transform: translateY(60%);
+    width: 10%;
+    height: 80px;
+    margin-left: -153px;
+}
+
+.green{
+    background-color: crimson;
+    transform: translateY(3%);
+    width: 70%;
+    height: 699px;
+    float: left;
+    margin-left: -1px;
+}
+
+.blue{
+    background-color: blueviolet;
+    transform: translateY(-10%);
+    width: 93%;
+    height: 100px;
+    float: left;
+}
+
+.yelow{
+    background-color: chartreuse;
+    transform: translateY(60%);
+    width: 82%;
+    height: 80px;
+    margin-left: -4px;
+}
+
+.brown{
+    background-color: cornflowerblue;
+    width: 10%;
+    height: 700px;
+    transform: translateY(-123%);
+    margin-left: 1088px;
+}
